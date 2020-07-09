@@ -27,27 +27,39 @@ public class Questao_2 {
 			
 		}while(true);
 		
-		for(int j = 0; j < 8; j++) {
+		for(int j = 0; j < i; j++) {
 			
-			switch (notaDigitada[j]){
 			
-				case 1:
+			
+				if(notaDigitada[j] == 1) {
 					System.out.println(Do);
-				case 2:
+				}
+					
+				if(notaDigitada[j] == 2) {
 					System.out.println(Re);
-				case 3:
+				}
+					
+				if (notaDigitada[j]==3) {
 					System.out.println(Mi);
-				case 4:
+				}
+					
+				if (notaDigitada[j]==4) {
 					System.out.println(Fa);
-				case 5:
+				}
+					
+				if(notaDigitada[j]==5) {
 					System.out.println(Sol);
-				case 6:
+
+				}
+				if(notaDigitada[j]==6) {
 					System.out.println(La);
-				case 7:
+				}
+					
+				if(notaDigitada[j]==7) {
 					System.out.println(Si);
-				
+				}
 			}
-		}
+		
 		
 				
 		read.close();
